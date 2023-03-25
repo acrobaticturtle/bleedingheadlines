@@ -1,0 +1,100 @@
+
+header {
+	border-bottom: 2px solid darkgrey;
+	padding-bottom: 1rem;
+	
+}
+
+.<!-- time {
+	display: inline;
+}
+ -->
+.dateTime {
+	
+	float: left;
+	color: burlywood;
+	font: Times, sans-serif;
+	font-size: 1.25rem;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	float: center;
+	padding: 1rem 1.5rem;
+}
+
+.logo {
+	display: flex;
+	float: center;
+	border-bottom: 10px;
+	color: red;
+	font-size: 50px;
+	font-family: Times;
+	
+}
+
+.weather {
+	
+	color: blueviolet;
+}
+
+.nav-link {
+	display: flex;
+	float: left;
+	justify-content: space-between;
+	padding-inline: 2rem;
+}
+
+.catBar {
+	padding-bottom: 1rem;
+}
+
+.headline {
+  <!-- background-color: dodgerblue; -->
+  color: white;
+  padding: 1rem;
+  height: auto;
+}
+
+.headlines {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  padding-top: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+ 
+}
+
+
+<!-- @media (min-width: 600px) {
+  .headlines { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .headlines { grid-template-columns: repeat(3, 1fr); }
+} -->
+      
+h1 {
+	font-size: 15px;
+}
+
+
+      
+a {
+	font-size: 15px;
+	float: right;
+	color: black;
+	
+}
+
+.category {
+	font-style: italic;
+	font-size: 15px;
+}
+
+.title {
+	font-size: 15px;
+}

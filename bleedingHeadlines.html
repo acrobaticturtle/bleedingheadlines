@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bleeding Headlines</title>
+<!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header class="header">
+		<nav class="navbar">
+					
+			<div class="dateTime">
+				<div class="time" id = "digital-clock"> </div>
+					<script src = "script.js"> </script>
+			
+				<div id="current_date"></div>
+					<script>
+						date = new Date();
+						year = date.getFullYear();
+						month = date.getMonth() + 1;
+						day = date.getDate();
+						document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+					</script>
+			</div>
+
+			<div class="logo">
+				<div class="logo">Bleeding Headlines</div>			
+			</div>
+			
+			<div class="weather">
+				<a>Weather</a>			
+			</div>
+				
+
+			<!-- <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> -->
+		</nav>
+
+		<nav class="catBar">
+			<a href="" class="nav-link">Politics</a>
+			<a href="" class="nav-link">Sports</a>
+			<a href="" class="nav-link">Culture</a>
+			<a href="" class="nav-link">History</a>
+			<a href="" class="nav-link">Opinion</a>
+			<a href="" class="nav-link">Science</a>
+		</nav>
+	</header>
+	
+	
+	<div class="headlines">
+		
+		<div class="headline">
+	  		<h1>Obama Bleeds Trump</h1>
+	  		<div class="category">Politics</div>
+	  		<p>
+	  		Trump was Obama's guest of honor at the gala for hoity toities.  After cheesballs they toasted to the triumph of pork chops. It a brilliant display of solidarity and no one got hurt.  They even had some winners to announce.
+	  		</p>
+	  		<a href="" class="aLink">More</a>
+	  	</div> 
+   	
+	   	<div class="headline">
+	   		<h1>Fluoride Trial Finally Underway</h1>
+	   		<div class="category">Politics</div>
+	   		<p>The class-action lawsuit against the EPA for its malfeascence regarding its support for the fluoridation of water is gaining ground.</p>
+	   		<a href="" class="aLink">More</a>
+	   	</div>
+	   	
+	   	<div class="headline">
+	   		<h1>This Day In History</h1>
+	   		<div class="category">History</div>
+	   		<p>Perhaps there is a history api or something that could grab a history blurb here.  Maybe create a db with dates and events.</p>
+	   		<a href="" class="aLink">More</a>
+	   	</div>
+
+	   	<div class="headline">
+	   		<h1>White House Says It Opposes a Ceasefire in Ukraine</h1>
+	   		<div class="category">Politics</div>
+	   		<p>From Antiwar.com-The White House has come out against a ceasefire in Ukraine ahead of Chinese President Xi Jinping’s trip to Moscow to potentially mediate between Russian President Vladimir Putin and his counterpart in Kyiv.</p>
+	   		<a href="https://news.antiwar.com/2023/03/19/white-house-says-it-opposes-a-ceasefire-in-ukraine/" class="aLink">More</a>
+	   	</div>
+	   	<div class="headline">
+	   		<h1>Iran’s President Welcomes Invite From Saudi King After Normalization Deal</h1>
+	   		<div class="category">Politics</div>
+	   		<p>From Antiwar.com-Iranian President Ebrahim Raisi has welcomed an invitation from Saudi King Salman to visit Riyadh following a China-brokered normalization deal between the two countries.</p>
+	   		<a href="https://news.antiwar.com/2023/03/19/irans-president-welcomes-invite-from-saudi-king-after-normalization-deal/">More</a>
+	   	</div>
+	   	<div class="headline">
+	   			<h1>Science Is Always Debatable</h1>
+	   			<div class="category">Science</div>
+				<script>!function(r,u,m,b,l,e){r._Rumble=b,r[b]||(r[b]=function(){(r[b]._=r[b]._||[]).push(arguments);if(r[b]._.length==1){l=u.createElement(m),e=u.getElementsByTagName(m)[0],l.async=1,l.src="https://rumble.com/embedJS/u4"+(arguments[1].video?'.'+arguments[1].video:'')+"/?url="+encodeURIComponent(location.href)+"&args="+encodeURIComponent(JSON.stringify([].slice.apply(arguments))),e.parentNode.insertBefore(l,e)}})}(window, document, "script", "Rumble");</script>
+
+				<div id="rumble_vyil6j"></div>
+            <script>Rumble("play", {"video":"vyil6j","div":"rumble_vyil6j"});</script>	   	
+	   	</div>
+	   	<div class="headline">FOUR</div>
+	   	<div class="headline">FIVE</div>
+	   	<div class="headline">SIX</div>
+	   	<div class="headline">SEVEN</div>
+	   	<div class="headline">EIGHT</div>
+	   	<div class="headline">NINE</div>
+	   	<div class="headline">TEN</div>
+	   	<div class="headline">ELEVEN</div>
+	   	<div class="headline">TWELVE</div>
+   </div>
+  	
+  	
+
+</body>
+</html>
